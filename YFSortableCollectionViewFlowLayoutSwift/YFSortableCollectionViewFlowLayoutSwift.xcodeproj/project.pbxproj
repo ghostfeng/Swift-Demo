@@ -338,6 +338,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = YFSortableCollectionViewFlowLayoutSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.witgo.YFSortableCollectionViewFlowLayoutSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +360,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = YFSortableCollectionViewFlowLayoutSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.witgo.YFSortableCollectionViewFlowLayoutSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +414,7 @@
 				1CE7DA5E1F0E375A007C3E7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CE7DA5F1F0E375A007C3E7C /* Build configuration list for PBXNativeTarget "YFSortableCollectionViewFlowLayoutSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +423,7 @@
 				1CE7DA611F0E375A007C3E7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
