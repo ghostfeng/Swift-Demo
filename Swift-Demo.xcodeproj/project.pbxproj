@@ -15,11 +15,11 @@
 		1C2E10531F0F8FCB007225C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E104D1F0F8FCB007225C1 /* ViewController.swift */; };
 		1C35E1B61F0B31E80045D3ED /* Swift_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35E1B51F0B31E80045D3ED /* Swift_DemoTests.swift */; };
 		1C35E1C11F0B31E80045D3ED /* Swift_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35E1C01F0B31E80045D3ED /* Swift_DemoUITests.swift */; };
-		1C82D4891F145BF100CC8BD4 /* Snippets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA4F251F134FFE0089D3DB /* Snippets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1C82D48A1F145BF100CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA4F261F134FFE0089D3DB /* YFSortableCollectionViewFlowLayoutSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C82D4C51F14BB1300CC8BD4 /* Snippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C82D4BC1F14BAFE00CC8BD4 /* Snippets.framework */; };
+		1C82D4C61F14BB1300CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C82D4C21F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework */; };
+		1C82D4C81F14BB7700CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C82D4C21F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C82D4C91F14BB7D00CC8BD4 /* Snippets.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C82D4BC1F14BAFE00CC8BD4 /* Snippets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1CFA4F231F134DA70089D3DB /* YFDragCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA4F221F134DA70089D3DB /* YFDragCollectionViewController.swift */; };
-		1CFA4F271F134FFE0089D3DB /* Snippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA4F251F134FFE0089D3DB /* Snippets.framework */; };
-		1CFA4F281F134FFE0089D3DB /* YFSortableCollectionViewFlowLayoutSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA4F261F134FFE0089D3DB /* YFSortableCollectionViewFlowLayoutSwift.framework */; };
 		4B47ED291193378899040762 /* Pods_Swift_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9324F9FCD3C40D527B3EEA40 /* Pods_Swift_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,19 +38,46 @@
 			remoteGlobalIDString = 1C35E19C1F0B31E80045D3ED;
 			remoteInfo = "Swift-Demo";
 		};
+		1C82D4BB1F14BAFE00CC8BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C82D4A61F14BAFE00CC8BD4 /* Snippets.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C35E1D81F0B32E00045D3ED;
+			remoteInfo = Snippets;
+		};
+		1C82D4BD1F14BAFE00CC8BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C82D4A61F14BAFE00CC8BD4 /* Snippets.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C35E1E11F0B32E00045D3ED;
+			remoteInfo = SnippetsTests;
+		};
+		1C82D4C11F14BAFE00CC8BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C82D4B31F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CE7DA481F0E375A007C3E7C;
+			remoteInfo = YFSortableCollectionViewFlowLayoutSwift;
+		};
+		1C82D4C31F14BAFE00CC8BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C82D4B31F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CE7DA511F0E375A007C3E7C;
+			remoteInfo = YFSortableCollectionViewFlowLayoutSwiftTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1CFA4F241F134FB90089D3DB /* Embed Frameworks */ = {
+		1C82D4C71F14BB5300CC8BD4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1C82D4891F145BF100CC8BD4 /* Snippets.framework in Embed Frameworks */,
-				1C82D48A1F145BF100CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in Embed Frameworks */,
+				1C82D4C91F14BB7D00CC8BD4 /* Snippets.framework in CopyFiles */,
+				1C82D4C81F14BB7700CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in CopyFiles */,
 			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -69,6 +96,21 @@
 		1C35E1BC1F0B31E80045D3ED /* Swift-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C35E1C01F0B31E80045D3ED /* Swift_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DemoUITests.swift; sourceTree = "<group>"; };
 		1C35E1C21F0B31E80045D3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C82D4A21F14BAFE00CC8BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C82D4A31F14BAFE00CC8BD4 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		1C82D4A41F14BAFE00CC8BD4 /* Snippets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Snippets.h; sourceTree = "<group>"; };
+		1C82D4A51F14BAFE00CC8BD4 /* Snippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snippets.swift; sourceTree = "<group>"; };
+		1C82D4A61F14BAFE00CC8BD4 /* Snippets.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Snippets.xcodeproj; sourceTree = "<group>"; };
+		1C82D4AA1F14BAFE00CC8BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C82D4AB1F14BAFE00CC8BD4 /* SnippetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsTests.swift; sourceTree = "<group>"; };
+		1C82D4AD1F14BAFE00CC8BD4 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		1C82D4AF1F14BAFE00CC8BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C82D4B01F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFSortableCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		1C82D4B11F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFSortableCollectionViewFlowLayoutSwift.h; sourceTree = "<group>"; };
+		1C82D4B21F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YFSortableCollectionViewFlowLayoutSwift.podspec; sourceTree = "<group>"; };
+		1C82D4B31F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = YFSortableCollectionViewFlowLayoutSwift.xcodeproj; sourceTree = "<group>"; };
+		1C82D4B71F14BAFE00CC8BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C82D4B81F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFSortableCollectionViewFlowLayoutSwiftTests.swift; sourceTree = "<group>"; };
 		1CFA4F221F134DA70089D3DB /* YFDragCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFDragCollectionViewController.swift; sourceTree = "<group>"; };
 		1CFA4F251F134FFE0089D3DB /* Snippets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Snippets.framework; path = "../../Library/Developer/Xcode/DerivedData/Swift-Demo-euftsujhveackgfgckfygrylxtst/Build/Products/Debug-iphoneos/Snippets.framework"; sourceTree = "<group>"; };
 		1CFA4F261F134FFE0089D3DB /* YFSortableCollectionViewFlowLayoutSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YFSortableCollectionViewFlowLayoutSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/Swift-Demo-euftsujhveackgfgckfygrylxtst/Build/Products/Debug-iphoneos/YFSortableCollectionViewFlowLayoutSwift.framework"; sourceTree = "<group>"; };
@@ -82,8 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CFA4F271F134FFE0089D3DB /* Snippets.framework in Frameworks */,
-				1CFA4F281F134FFE0089D3DB /* YFSortableCollectionViewFlowLayoutSwift.framework in Frameworks */,
+				1C82D4C51F14BB1300CC8BD4 /* Snippets.framework in Frameworks */,
+				1C82D4C61F14BB1300CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in Frameworks */,
 				4B47ED291193378899040762 /* Pods_Swift_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +201,85 @@
 			path = "Swift-DemoUITests";
 			sourceTree = "<group>";
 		};
+		1C82D4A01F14BAFE00CC8BD4 /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				1C82D4A11F14BAFE00CC8BD4 /* Snippets */,
+				1C82D4A61F14BAFE00CC8BD4 /* Snippets.xcodeproj */,
+				1C82D4A91F14BAFE00CC8BD4 /* SnippetsTests */,
+			);
+			path = Snippets;
+			sourceTree = "<group>";
+		};
+		1C82D4A11F14BAFE00CC8BD4 /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				1C82D4A21F14BAFE00CC8BD4 /* Info.plist */,
+				1C82D4A31F14BAFE00CC8BD4 /* Protocol.swift */,
+				1C82D4A41F14BAFE00CC8BD4 /* Snippets.h */,
+				1C82D4A51F14BAFE00CC8BD4 /* Snippets.swift */,
+			);
+			path = Snippets;
+			sourceTree = "<group>";
+		};
+		1C82D4A71F14BAFE00CC8BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C82D4BC1F14BAFE00CC8BD4 /* Snippets.framework */,
+				1C82D4BE1F14BAFE00CC8BD4 /* SnippetsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C82D4A91F14BAFE00CC8BD4 /* SnippetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C82D4AA1F14BAFE00CC8BD4 /* Info.plist */,
+				1C82D4AB1F14BAFE00CC8BD4 /* SnippetsTests.swift */,
+			);
+			path = SnippetsTests;
+			sourceTree = "<group>";
+		};
+		1C82D4AC1F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1C82D4AD1F14BAFE00CC8BD4 /* .swift-version */,
+				1C82D4AE1F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift */,
+				1C82D4B21F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.podspec */,
+				1C82D4B31F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.xcodeproj */,
+				1C82D4B61F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwiftTests */,
+			);
+			path = YFSortableCollectionViewFlowLayoutSwift;
+			sourceTree = "<group>";
+		};
+		1C82D4AE1F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1C82D4AF1F14BAFE00CC8BD4 /* Info.plist */,
+				1C82D4B01F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayout.swift */,
+				1C82D4B11F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.h */,
+			);
+			path = YFSortableCollectionViewFlowLayoutSwift;
+			sourceTree = "<group>";
+		};
+		1C82D4B41F14BAFE00CC8BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C82D4C21F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework */,
+				1C82D4C41F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C82D4B61F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C82D4B71F14BAFE00CC8BD4 /* Info.plist */,
+				1C82D4B81F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwiftTests.swift */,
+			);
+			path = YFSortableCollectionViewFlowLayoutSwiftTests;
+			sourceTree = "<group>";
+		};
 		2380F123F92DD522DAE85DDB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +292,8 @@
 		CBDCCA83ACED15D510FCA499 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C82D4A01F14BAFE00CC8BD4 /* Snippets */,
+				1C82D4AC1F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift */,
 				1CFA4F251F134FFE0089D3DB /* Snippets.framework */,
 				1CFA4F261F134FFE0089D3DB /* YFSortableCollectionViewFlowLayoutSwift.framework */,
 				9324F9FCD3C40D527B3EEA40 /* Pods_Swift_Demo.framework */,
@@ -191,7 +314,7 @@
 				1C35E19B1F0B31E80045D3ED /* Resources */,
 				D92ECE7DEF913EE808FB5A8B /* [CP] Embed Pods Frameworks */,
 				0CEFEE6BACFF76376350D207 /* [CP] Copy Pods Resources */,
-				1CFA4F241F134FB90089D3DB /* Embed Frameworks */,
+				1C82D4C71F14BB5300CC8BD4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -279,6 +402,16 @@
 			mainGroup = 1C35E1941F0B31E80045D3ED;
 			productRefGroup = 1C35E19E1F0B31E80045D3ED /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1C82D4A71F14BAFE00CC8BD4 /* Products */;
+					ProjectRef = 1C82D4A61F14BAFE00CC8BD4 /* Snippets.xcodeproj */;
+				},
+				{
+					ProductGroup = 1C82D4B41F14BAFE00CC8BD4 /* Products */;
+					ProjectRef = 1C82D4B31F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1C35E19C1F0B31E80045D3ED /* Swift-Demo */,
@@ -287,6 +420,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1C82D4BC1F14BAFE00CC8BD4 /* Snippets.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Snippets.framework;
+			remoteRef = 1C82D4BB1F14BAFE00CC8BD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C82D4BE1F14BAFE00CC8BD4 /* SnippetsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SnippetsTests.xctest;
+			remoteRef = 1C82D4BD1F14BAFE00CC8BD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C82D4C21F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = YFSortableCollectionViewFlowLayoutSwift.framework;
+			remoteRef = 1C82D4C11F14BAFE00CC8BD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C82D4C41F14BAFE00CC8BD4 /* YFSortableCollectionViewFlowLayoutSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = YFSortableCollectionViewFlowLayoutSwiftTests.xctest;
+			remoteRef = 1C82D4C31F14BAFE00CC8BD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1C35E19B1F0B31E80045D3ED /* Resources */ = {
@@ -467,7 +631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -512,7 +676,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
