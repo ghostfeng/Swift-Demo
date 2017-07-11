@@ -15,6 +15,8 @@
 		1C2E10531F0F8FCB007225C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E104D1F0F8FCB007225C1 /* ViewController.swift */; };
 		1C35E1B61F0B31E80045D3ED /* Swift_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35E1B51F0B31E80045D3ED /* Swift_DemoTests.swift */; };
 		1C35E1C11F0B31E80045D3ED /* Swift_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35E1C01F0B31E80045D3ED /* Swift_DemoUITests.swift */; };
+		1C82D4891F145BF100CC8BD4 /* Snippets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA4F251F134FFE0089D3DB /* Snippets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C82D48A1F145BF100CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA4F261F134FFE0089D3DB /* YFSortableCollectionViewFlowLayoutSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1CFA4F231F134DA70089D3DB /* YFDragCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA4F221F134DA70089D3DB /* YFDragCollectionViewController.swift */; };
 		1CFA4F271F134FFE0089D3DB /* Snippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA4F251F134FFE0089D3DB /* Snippets.framework */; };
 		1CFA4F281F134FFE0089D3DB /* YFSortableCollectionViewFlowLayoutSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFA4F261F134FFE0089D3DB /* YFSortableCollectionViewFlowLayoutSwift.framework */; };
@@ -45,6 +47,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1C82D4891F145BF100CC8BD4 /* Snippets.framework in Embed Frameworks */,
+				1C82D48A1F145BF100CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +244,7 @@
 		1C35E1951F0B31E80045D3ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YF;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Witgo;

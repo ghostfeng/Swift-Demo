@@ -19,11 +19,9 @@ class YFDragCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
-        // Register cell classes
         let layout = YFSortableCollectionViewFlowLayout()
         let margin: CGFloat = 20.0
         layout.minimumLineSpacing = margin
@@ -116,9 +114,9 @@ extension YFDragCollectionViewController: YFSortableCollectionViewDataSource {
         selectedChannels.insert(name, at: destinationIndexPath.row)
     }
     func collectionView(_ collectionView: UICollectionView, itemCanMoveAt indexPath: IndexPath) -> Bool {
-        return indexPath.section == 0
+        return indexPath.section == 0 && indexPath.row != 0
     }
-    func collectionView(_ collectionView: UICollectionView, canMoveItemTo indexPath: IndexPath) -> Bool {
+    func collectionView(_ collectionView: UICollectionView, itemCanMoveTo indexPath: IndexPath) -> Bool {
         return indexPath.section == 0
     }
 }
@@ -128,7 +126,7 @@ class DragsortCell: UICollectionViewCell {
     
     override var isHighlighted: Bool {
         didSet {
-            backgroundColor = isHighlighted ? UIColor.red : UIColor.lightGray
+            backgroundColor = isHighlighted ? UIColor.darkGray : UIColor.lightGray
         }
     }
 }

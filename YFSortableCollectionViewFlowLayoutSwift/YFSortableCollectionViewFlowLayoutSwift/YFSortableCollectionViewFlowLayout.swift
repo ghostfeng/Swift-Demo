@@ -228,10 +228,7 @@ extension YFSortableCollectionViewFlowLayout: UIGestureRecognizerDelegate {
                 currentViewCenter = currentView?.center
                 UIView.animate(withDuration: 0.3, delay: 0.0, options: .beginFromCurrentState, animations: { [weak self] in
                     self?.currentView?.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
-                    highlightedSnapShot?.alpha = 0.0
-                    snapShot?.alpha = 1.0
                 }, completion: { [weak self] (finished) in
-                    highlightedSnapShot?.removeFromSuperview()
                     self?.delegate?.collectionView?((self?.collectionView)!, didBeginDraggingItemAt: (self?.selectIndexPath)!)
                 })
                 
@@ -369,6 +366,10 @@ extension CADisplayLink {
 }
 
 extension UICollectionViewCell {
+    
+    /// 获取快照
+    ///
+    /// - Returns: 快照视图
     func yf_snapshotView() -> UIView {
         if let snapshotView = self.snapshotView(afterScreenUpdates: true) {
             return snapshotView
