@@ -15,10 +15,9 @@
 		1C2E10531F0F8FCB007225C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E104D1F0F8FCB007225C1 /* ViewController.swift */; };
 		1C35E1B61F0B31E80045D3ED /* Swift_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35E1B51F0B31E80045D3ED /* Swift_DemoTests.swift */; };
 		1C35E1C11F0B31E80045D3ED /* Swift_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35E1C01F0B31E80045D3ED /* Swift_DemoUITests.swift */; };
-		1C82D4DE1F14C1A900CC8BD4 /* Snippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C82D4DC1F14C1A900CC8BD4 /* Snippets.framework */; };
-		1C82D4DF1F14C1A900CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C82D4DD1F14C1A900CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework */; };
-		1C82D4E01F14C1BA00CC8BD4 /* Snippets.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C82D4DC1F14C1A900CC8BD4 /* Snippets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1C82D4E11F14C1C000CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C82D4DD1F14C1A900CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C75BDB11F8DF7F9007A3473 /* Snippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C75BDB31F8DF7F9007A3473 /* Snippets.framework */; };
+		1C75BDB21F8DF7F9007A3473 /* YFSortableCollectionViewFlowLayoutSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C75BDB41F8DF7F9007A3473 /* YFSortableCollectionViewFlowLayoutSwift.framework */; };
+		1C75BDB51F8DF858007A3473 /* YFCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C75BDB61F8DF858007A3473 /* YFCommon.framework */; };
 		1CFA4F231F134DA70089D3DB /* YFDragCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA4F221F134DA70089D3DB /* YFDragCollectionViewController.swift */; };
 		4B47ED291193378899040762 /* Pods_Swift_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9324F9FCD3C40D527B3EEA40 /* Pods_Swift_Demo.framework */; };
 /* End PBXBuildFile section */
@@ -41,14 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1C82D4C71F14BB5300CC8BD4 /* CopyFiles */ = {
+		1C75BDAE1F8DF31E007A3473 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1C82D4E11F14C1C000CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in CopyFiles */,
-				1C82D4E01F14C1BA00CC8BD4 /* Snippets.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +65,10 @@
 		1C35E1BC1F0B31E80045D3ED /* Swift-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C35E1C01F0B31E80045D3ED /* Swift_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DemoUITests.swift; sourceTree = "<group>"; };
 		1C35E1C21F0B31E80045D3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C82D4DC1F14C1A900CC8BD4 /* Snippets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Snippets.framework; path = "../../../Library/Developer/Xcode/DerivedData/Swift-Demo-ftsmtcalhiwtctakjksjszujrdqf/Build/Products/Debug-iphoneos/Snippets.framework"; sourceTree = "<group>"; };
-		1C82D4DD1F14C1A900CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YFSortableCollectionViewFlowLayoutSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/Swift-Demo-ftsmtcalhiwtctakjksjszujrdqf/Build/Products/Debug-iphoneos/YFSortableCollectionViewFlowLayoutSwift.framework"; sourceTree = "<group>"; };
+		1C75BDB01F8DF344007A3473 /* YFCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YFCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C75BDB31F8DF7F9007A3473 /* Snippets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Snippets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C75BDB41F8DF7F9007A3473 /* YFSortableCollectionViewFlowLayoutSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YFSortableCollectionViewFlowLayoutSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C75BDB61F8DF858007A3473 /* YFCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YFCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFA4F221F134DA70089D3DB /* YFDragCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFDragCollectionViewController.swift; sourceTree = "<group>"; };
 		2D72DAE10755EE934705035C /* Pods-Swift-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-Demo/Pods-Swift-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		3EEE8D690D00FE2C0F034EF7 /* Pods-Swift-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-Demo/Pods-Swift-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,8 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C82D4DE1F14C1A900CC8BD4 /* Snippets.framework in Frameworks */,
-				1C82D4DF1F14C1A900CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework in Frameworks */,
+				1C75BDB51F8DF858007A3473 /* YFCommon.framework in Frameworks */,
+				1C75BDB11F8DF7F9007A3473 /* Snippets.framework in Frameworks */,
+				1C75BDB21F8DF7F9007A3473 /* YFSortableCollectionViewFlowLayoutSwift.framework in Frameworks */,
 				4B47ED291193378899040762 /* Pods_Swift_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,8 +170,10 @@
 		CBDCCA83ACED15D510FCA499 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C82D4DC1F14C1A900CC8BD4 /* Snippets.framework */,
-				1C82D4DD1F14C1A900CC8BD4 /* YFSortableCollectionViewFlowLayoutSwift.framework */,
+				1C75BDB61F8DF858007A3473 /* YFCommon.framework */,
+				1C75BDB31F8DF7F9007A3473 /* Snippets.framework */,
+				1C75BDB41F8DF7F9007A3473 /* YFSortableCollectionViewFlowLayoutSwift.framework */,
+				1C75BDB01F8DF344007A3473 /* YFCommon.framework */,
 				9324F9FCD3C40D527B3EEA40 /* Pods_Swift_Demo.framework */,
 			);
 			name = Frameworks;
@@ -190,7 +192,7 @@
 				1C35E19B1F0B31E80045D3ED /* Resources */,
 				D92ECE7DEF913EE808FB5A8B /* [CP] Embed Pods Frameworks */,
 				0CEFEE6BACFF76376350D207 /* [CP] Copy Pods Resources */,
-				1C82D4C71F14BB5300CC8BD4 /* CopyFiles */,
+				1C75BDAE1F8DF31E007A3473 /* CopyFiles */,
 			);
 			buildRules = (
 			);

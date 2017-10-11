@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:YFCommon/YFCommon.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Swift-Demo.xcodeproj">
    </FileRef>
    <FileRef
